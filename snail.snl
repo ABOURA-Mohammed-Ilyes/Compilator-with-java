@@ -1,0 +1,14 @@
+Snl_Begin
+Snl_Int i,x1,x2%.
+Snl_Real x3,k,j%.
+Set i 33 %.
+If[i>=50]
+Set x2 10.5%.
+Set j 13.6%.
+Else
+Get x2 from j%.
+Set k 43%.
+Snl_Put "ceci est un message "%.
+Snl_Put i%.
+%ceci est un commentaire%
+Snl_End
